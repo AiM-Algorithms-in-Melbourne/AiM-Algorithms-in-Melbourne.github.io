@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AiM Group — Home</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+  <div class="brand" style="flex-direction:row; align-items:center; gap:10px;">
+    <img src="assets/img/AiM-logo.png"
+     alt="AiM Logo"
+     style="
+       height:140px;
+       width:120px;          /* 控制裁掉多少 */
+       object-fit: cover;   /* 关键 */
+       object-position: center;
+     " />
+    <div class="title" style="font-size:26px; font-weight:600;">AiM Group (Algorithms in Melbourne)</div> 
+ </div>
+
+<nav class="nav" aria-label="Main navigation">
+  <a class="active" href="index.html" style="font-weight:600;">Home</a>
+  <a href="people.html" style="font-weight:600;">People</a>
+  <a href="seminars.html" style="font-weight:600;">Seminars</a>
+</nav>
+</div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>About</h2>
+      <p class="lead">
+       The AiM (Algorithms in Melbourne) Group is a research group initiated by Dr. Junhao Gan, Dr. William Umboh, and Dr. Hanzhi Wang, based at the School of Computing and Information Systems (CIS), The University of Melbourne (UoM), Australia. The group’s primary research focus is on algorithms and data structures. </p>
+
+      <p>We regularly announce upcoming seminars, vacant PhD/PostDoc positions, visiting opportunities, and summaries of previous seminar recordings here.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>News</h2>
+      <ul class="news">
+        <li><strong>20 Jan 2026:</strong> As the first talk in the new year, Tim Rieder (ETH Zürich) will give a talk on his recent FOCS 2025 paper, entitled “Random-Shift Revisited: Tight Approximations for Tree Embeddings and L1-Oblivious Routings.”</li>
+        <li><strong>22 Dec 2025:</strong> Prof. Mikkel Thorup (BARC, University of Copenhagen) will visit us and deliver a Distinguished Lecture on 22 December 2025! </li>
+        <li><strong>19 Dec 2025:</strong> Prof. Shang-Hua Teng (University of Southern California) will visit us and deliver a Distinguished Lecture on 19 December 2025! </li>
+      </ul>
+<!--      <p class="small">Tip: keep each item short; link out to details if needed.</p>-->
+    </section>
+
+    <section class="section">
+      <h2>Contact</h2>
+      <p>
+   We warmly welcome everyone who is interested in algorithms to join us! Please feel free to email Hanzhi (hanzhi.hzwang@gmail.com) if you would like to participate in group activities. For questions regarding hiring or visiting opportunities, it would be more efficient to contact the relevant PI directly.
+      </p>
+    </section>
+
+    <div class="footer">
+      © <span id="year"></span> AiM Group • Built with GitHub Pages
+    </div>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
